@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    
+
+
+
+}
+
+header{
+    height: 150px;
+    padding: 10px;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.034));
+}
+
+#container{
+    background: url(./assets/background.jpg);
+    padding-bottom: 150px;
+
+}
+
+#logo{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#log-in{
+    background: rgb(255, 0, 0);
+    width: 150px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#log-in:hover{
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+
+button{
+    cursor: pointer;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.main-line{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.main-line1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+#form{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+input{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    height: 70px;
+    padding-left: 10px;
+}
+.go{
+    background: rgb(255, 0, 0);
+    width: 200px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.go:hover{
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+#form{
+    margin-top: 20px;
+
+}
+
+#faq{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.faq-button{
+    width: 700px;
+    height: 70px;
+    background-color: #303030;
+    border: 0;
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+.answer{
+    width: 700px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    padding: 5px;
+    display: none;
+
+}
+
+#ready{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#base{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
